@@ -22,7 +22,7 @@ class test_korfeusz(unittest.TestCase):
 		current_tilt = 0.47
 		environment()
         tilt_regulator(current_tilt)
-        self.assertLess(tilt_regulator,current_tilt)
+        self.assertLess(self.regulator,current_tilt)
 
 if __name__=='__main__':
 	unittest.main()
