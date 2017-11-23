@@ -2,10 +2,10 @@
 
 #original code author: github.com/Korfeusz
 
+from __future__ import division
 import unittest
 from kol1_korfeusz import Environment, Regulator
 import math
-from __future__ import division
 
 class test_korfeusz(unittest.TestCase):
 	def setUp(self):
